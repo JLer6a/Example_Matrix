@@ -1,13 +1,13 @@
-           using System;
-           using System.Collections.Generic;
-           using System.Linq;
-           using System.Text;
-           using System.Threading;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading;
 
-           namespace Matrix
-           {
-              class Program
-            {
+    namespace Matrix
+    {
+        class Program
+    {
         static Random rnd = new Random();
         static object locker = new object();
 
@@ -126,4 +126,4 @@
             }
         }
     }
-}
+   }

@@ -19,7 +19,7 @@
             Thread.Sleep(rnd.Next(20, 100)); 
             int r = rnd.Next(10, Height - 7);  
             int stolb = (int)argument;       
-            int sleep = rnd.Next(6, 10);     
+            int sleep = rnd.Next(6, 100);     
             while (true)
             {
                 Thread.Sleep(rnd.Next(60, 150)); 
